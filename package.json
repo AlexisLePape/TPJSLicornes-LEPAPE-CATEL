@@ -1,0 +1,25 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "xo": {
+    "esnext": true,
+    "envs": [
+      "node",
+      "mocha"
+    ],
+    "space": 2,
+    "rules": {
+      "max-len": [
+        "error",
+        80,
+        2
+      ]
+    },
+    "ignores": [
+      "Gruntfile.js"
+    ]
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0"
+  }
+}
